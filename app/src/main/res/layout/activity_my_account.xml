@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".My_account">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/profile"
+        android:textColor="#111111"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="650sp"
+        android:text="پروفایل من"/>
+
+
+    <Button
+        android:id="@+id/basket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="550dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="270sp"
+        android:text="سبد خرید من"
+        android:textSize="20sp"
+        android:textColor="#125C97" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="محبوب ترین ها"
+        android:textSize="20sp"
+        android:textColor="#125C97"
+        android:layout_centerVertical="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="550sp"
+        android:layout_marginRight="135sp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/favorites"/>
+
+    <Button
+        android:id="@+id/bought"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="کالا های خریداری شده"
+        android:textSize="20sp"
+        android:textColor="#111111"
+        android:layout_marginRight="27sp"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pishnehad"
+        android:textColor="#111111"
+        android:textSize="20sp"
+        android:layout_marginRight="27sp"
+        android:layout_below="@+id/bought"
+        android:layout_alignParentRight="true"
+        android:text="کالا های پیشنهادی"/>
+
+
+</RelativeLayout>

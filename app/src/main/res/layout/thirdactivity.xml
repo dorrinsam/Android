@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/edt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:hint="نام"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:id="@+id/edt2"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/edt1"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-62sp"
+        android:hint="نام خانوادگی"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt3"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:hint="شماره تلفن"
+        android:layout_marginBottom="-62sp"
+        android:layout_alignBottom="@+id/edt2" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt4"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:layout_alignBottom="@id/edt3"
+        android:layout_marginBottom="-62sp"
+        android:hint="آدرس ایمیل"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt5"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:layout_alignBottom="@id/edt4"
+        android:layout_marginBottom="-62sp"
+        android:hint="رمز عبور"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt6"
+        android:layout_alignParentRight="true"
+        android:textSize="20sp"
+        android:layout_alignBottom="@id/edt5"
+        android:layout_marginBottom="-62sp"
+        android:hint="تکرار رمز عبور"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_ok2"
+        android:textSize="20sp"
+        android:layout_alignBottom="@id/edt6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="-62sp"
+        android:layout_centerVertical="true"
+        android:text="مرحله بعد"/>
+
+
+
+
+
+
+
+</RelativeLayout>

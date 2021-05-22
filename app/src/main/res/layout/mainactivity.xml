@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:id="@+id/tv"
+      android:layout_centerHorizontal="true"
+      android:layout_centerVertical="true"
+      android:text="خوش آمدید!"
+      android:textSize="32sp"
+      android:textColor="#125C97"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+        android:text="اگر مایلید ادامه دهید دکمه زیر را فشار دهید."
+        android:textSize="20sp"
+        android:textColor="#111111"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="200sp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="شروع"
+        android:id="@+id/button"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100sp"
+        android:layout_alignParentBottom="true"/>
+
+
+
+
+
+
+
+</RelativeLayout>

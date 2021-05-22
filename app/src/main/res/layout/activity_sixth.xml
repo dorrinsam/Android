@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SixthActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/rules"
+        android:text="قوانین اپ ..."
+        android:textSize="30sp"
+        android:textColor="#111111"
+        android:layout_marginBottom="550sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+    <CheckBox
+        android:id="@+id/accept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="13sp"
+        android:textSize="20sp"
+        android:layout_marginBottom="200sp"
+        android:text="قوانین و مقررات سایت را می پذیرم."
+        android:textColor="#3E7540" />
+
+
+</RelativeLayout>

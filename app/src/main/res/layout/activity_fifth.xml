@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FifthActivity">
+
+    <TextView
+        android:id="@+id/verification"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="550sp"
+        android:textColor="#111111"
+        android:textSize="20sp"
+        android:text="مایلید کد تایید چگونه برای شما ارسال شود؟ " />
+
+
+    <Button
+        android:id="@+id/sms"
+        android:layout_width="116sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="85sp"
+        android:layout_marginBottom="459sp"
+        android:text="پیامک"
+        android:textColor="#111111"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/call"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="200sp"
+        android:layout_marginBottom="459sp"
+        android:text="تماس تلفنی"
+        android:textColor="#111111"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="267sp"
+        android:layout_height="54sp"
+        android:id="@+id/sentcode"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="86sp"
+        android:layout_marginBottom="341sp"
+        android:text="تا دقایقی دیگر کد تایید برای شما ارسال میشود."
+        android:textSize="20sp"
+        android:textColor="#111111"
+        android:visibility="invisible"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/vercode"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="293sp"
+        android:hint="کد تایید"
+        android:maxLines="1"
+        android:maxLength="6"
+        android:textColor="#418E44"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:layout_width="267sp"
+        android:layout_height="54sp"
+        android:id="@+id/sentcode2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="86sp"
+        android:layout_marginBottom="341sp"
+        android:text="تا دقایقی دیگر کد تایید از طرف اپراتور به شما اعلام میگردد."
+        android:textColor="#111111"
+        android:textSize="20sp"
+        android:visibility="invisible"/>
+
+
+</RelativeLayout>
